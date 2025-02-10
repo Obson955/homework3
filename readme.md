@@ -3,7 +3,7 @@
 ## install 
 
 1. clone 
-2. pip install - requirements.txt
+2. pip install -r requirements.txt
 
 
 ## Testing 
