@@ -1,4 +1,4 @@
-"""This module contains unit tests for the Calculations class."""
+"""Unit tests for the Calculations class."""
 
 from decimal import Decimal
 import pytest
@@ -9,8 +9,7 @@ from calculator.operations import add
 
 @pytest.fixture(autouse=True)
 def setup_method():
-    """Fixture to clear calculation history before each test.
-    The autouse=True parameter ensures this runs before each test automatically."""
+    """Fixture to clear calculation history before each test."""
     Calculations.clear_history()
     yield
     Calculations.clear_history()
