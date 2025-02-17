@@ -3,7 +3,7 @@
 from decimal import Decimal
 import pytest
 from calculator.calculation import Calculation
-from calculator.operations import add, subtract,  multiply, divide
+from calculator.operations import add, subtract, divide
 
 def test_calculation_add():
     """Test performing an addition calculation."""
